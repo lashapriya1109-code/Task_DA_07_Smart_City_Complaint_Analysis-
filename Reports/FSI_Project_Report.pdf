@@ -1,0 +1,120 @@
+# FSI Data Analysis Dashboard
+
+## 1. Introduction
+
+The Fragile States Index (FSI) is a global dataset used to measure the stability and vulnerability of countries. This project analyzes FSI data from 2006 to 2023 to identify risk patterns, country performance, and global instability trends.
+
+## 2. Objective
+
+The main objective of this project is to:
+
+* Analyze country-wise FSI scores.
+* Identify high-risk and low-risk countries.
+* Study global instability trends over time.
+* Create KPIs and visualizations for decision-making.
+* Provide business recommendations based on data insights.
+
+## 3. Dataset Description
+
+Dataset Name: FSI_Data_2006_2023.csv
+
+The dataset contains country-wise Fragile States Index scores from 2006 to 2023. It includes multiple indicators related to political, social, and economic conditions.
+
+Number of Records: 3170
+
+Key Columns:
+
+* Country
+* Year
+* Total Score
+* Security Apparatus
+* Public Services
+* Human Rights
+* Economic Indicators
+* Demographic Pressures
+
+## 4. Data Cleaning
+
+The following preprocessing steps were performed:
+
+* Loaded the dataset using Pandas.
+* Checked data structure and column information.
+* Identified and handled missing values.
+* Removed duplicate records.
+* Renamed columns for easier analysis.
+* Created Risk Level categories:
+
+  * High Risk
+  * Medium Risk
+  * Low Risk
+* Generated Score Change feature for trend analysis.
+
+## 5. KPI Metrics
+
+The following KPIs were created:
+
+* Total Countries
+* Total Records
+* Average FSI Score
+* High Risk Countries
+* Medium Risk Countries
+* Low Risk Countries
+* Highest Risk Country
+* Lowest Risk Country
+
+These KPIs help understand the overall condition of countries and global stability.
+
+## 6. Data Analysis and Visualizations
+
+The following analyses were performed:
+
+### Risk Level Distribution
+
+Analyzed the number of countries under High Risk, Medium Risk, and Low Risk categories.
+
+### Top 10 Most Fragile Countries
+
+Identified countries with the highest average FSI scores.
+
+### Top 10 Most Stable Countries
+
+Identified countries with the lowest average FSI scores.
+
+### Global FSI Trend Analysis
+
+Studied how instability changed from 2006 to 2023.
+
+### Correlation Analysis
+
+Examined relationships between different FSI indicators using a heatmap.
+
+### Country-wise Risk Change Analysis
+
+Analyzed countries where risk scores increased significantly over time.
+
+## 7. Key Findings
+
+* Some countries consistently recorded high FSI scores, indicating instability.
+* Several countries maintained low scores, showing long-term stability.
+* Global instability trends changed across different years.
+* Certain indicators showed strong correlation with total FSI scores.
+* Risk level categorization simplified country comparison.
+
+## 8. Business Recommendations
+
+* Focus on countries with high FSI scores for policy intervention.
+* Monitor countries with increasing risk trends.
+* Strengthen economic and social development programs.
+* Use data-driven approaches for strategic planning.
+* Improve monitoring of key instability indicators.
+
+## 9. Conclusion
+
+This project successfully analyzed the Fragile States Index dataset and provided meaningful insights into global stability patterns. The dashboard and visualizations help understand country performance, risk levels, and long-term trends. The results can support policymakers, researchers, and organizations in making informed decisions.
+
+## 10. Future Scope
+
+* Develop an interactive Power BI dashboard.
+* Implement machine learning models for risk prediction.
+* Create real-time monitoring systems.
+* Expand analysis using additional global datasets.
